@@ -5,7 +5,7 @@ const products = [
         name: 'Pulse Pro',
         description: 'Premium wireless earbuds with advanced features for everyday listening',
         price: 149,
-        image: 'Assets/Images/1.jpg',
+        image: '1.jpg',
         badge: 'Best Seller',
         specs: [
             { icon: 'battery-three-quarters', text: '30h Battery' },
@@ -27,7 +27,7 @@ const products = [
         name: 'Pulse Elite',
         description: 'Enhanced audio experience with superior noise cancellation',
         price: 199,
-        image: 'Assets/Images/2.jpg',
+        image: '2.jpg',
         badge: 'Popular',
         specs: [
             { icon: 'battery-full', text: '35h Battery' },
@@ -49,7 +49,7 @@ const products = [
         name: 'Pulse Max',
         description: 'Ultimate flagship model with cutting-edge technology',
         price: 249,
-        image: 'Assets/Images/3.jpg',
+        image: '3.jpg',
         badge: 'Premium',
         specs: [
             { icon: 'battery-full', text: '40h Battery' },
@@ -496,4 +496,5 @@ style.textContent = `
         }
     }
 `;
+
 document.head.appendChild(style);
