@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundPulse - Premium Wireless Earbuds</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i class="fas fa-wave-square"></i>
+                    <span>SoundPulse</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#compare">Compare</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">New Release</span>
+                    <h1 class="hero-title">
+                        Experience Sound
+                        <span class="gradient-text">Beyond Limits</span>
+                    </h1>
+                    <p class="hero-description">
+                        Premium wireless earbuds engineered for audiophiles. 
+                        Immersive audio, adaptive noise cancellation, and all-day comfort.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#products" class="btn btn-primary">
+                            Shop Now
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            Learn More
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-value">40h</div>
+                            <div class="stat-label">Battery Life</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">45dB</div>
+                            <div class="stat-label">ANC Power</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">IPX7</div>
+                            <div class="stat-label">Water Resistant</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="decorative-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <div class="product-showcase">
+                        <div class="pulse-ring ring-1"></div>
+                        <div class="pulse-ring ring-2"></div>
+                        <div class="pulse-ring ring-3"></div>
+                        <div class="showcase-circle"></div>
+                        <img src="Assets/Images/head2-removebg-preview.png" alt="SoundPulse Earbuds" class="product-img">
+                    </div>
+                    <div class="floating-icons">
+                        <div class="float-icon icon-1"><i class="fas fa-music"></i></div>
+                        <div class="float-icon icon-2"><i class="fas fa-volume-high"></i></div>
+                        <div class="float-icon icon-3"><i class="fas fa-bolt"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Collection</h2>
+                <p class="section-subtitle">Choose your perfect sound companion</p>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Features</h2>
+                <p class="section-subtitle">Technology that elevates your listening experience</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h3>Spatial Audio</h3>
+                    <p>Immersive 3D sound with dynamic head tracking for a theater-like experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Active Noise Cancellation</h3>
+                    <p>Advanced ANC technology blocks out unwanted noise for pure audio clarity</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Extended Battery</h3>
+                    <p>Up to 40 hours of playback with fast charging support</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <h3>Water Resistant</h3>
+                    <p>IPX7 rating protects against sweat and rain during workouts</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Crystal Clear Calls</h3>
+                    <p>AI-powered microphone system for perfect voice clarity</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-screen"></i>
+                    </div>
+                    <h3>Seamless Connectivity</h3>
+                    <p>Bluetooth 5.3 with multipoint pairing for effortless switching</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compare Section -->
+    <section id="compare" class="compare">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Compare Models</h2>
+                <p class="section-subtitle">Select products to compare side by side</p>
+            </div>
+            
+            <div class="compare-selector">
+                <div class="selector-card" data-product="pro">
+                    <div class="selector-checkbox">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <img src="Assets/Images/1.jpg" alt="Pulse Pro">
+                    <h3>Pulse Pro</h3>
+                    <p class="price">$149</p>
+                </div>
+                <div class="selector-card" data-product="elite">
+                    <div class="selector-checkbox">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <img src="Assets/Images/2.jpg" alt="Pulse Elite">
+                    <h3>Pulse Elite</h3>
+                    <p class="price">$199</p>
+                </div>
+                <div class="selector-card" data-product="max">
+                    <div class="selector-checkbox">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <img src="Assets/Images/3.jpg" alt="Pulse Max">
+                    <h3>Pulse Max</h3>
+                    <p class="price">$249</p>
+                </div>
+            </div>
+            
+            <div class="comparison-result" id="comparisonResult">
+                <p class="comparison-hint">Select 2 or 3 products to compare</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="empty-cart">
+                <i class="fas fa-shopping-bag"></i>
+                <p>Your cart is empty</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount" id="totalAmount">$0</span>
+            </div>
+            <button class="btn btn-primary btn-block" id="checkoutBtn">
+                Checkout
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkoutModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <i class="fas fa-receipt"></i>
+                <h2>Order Invoice</h2>
+            </div>
+            <div class="invoice-details" id="invoiceDetails">
+                <!-- Invoice items will be inserted here -->
+            </div>
+            <div class="invoice-footer">
+                <div class="invoice-row subtotal">
+                    <span>Subtotal:</span>
+                    <span id="invoiceSubtotal">$0</span>
+                </div>
+                <div class="invoice-row tax">
+                    <span>Tax (10%):</span>
+                    <span id="invoiceTax">$0</span>
+                </div>
+                <div class="invoice-row total">
+                    <span>Total:</span>
+                    <span id="invoiceTotal">$0</span>
+                </div>
+                <button class="btn btn-primary btn-block confirm-order" id="confirmOrder">
+                    Confirm Order
+                    <i class="fas fa-check"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-decoration">
+            <i class="fas fa-wave-square"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-headphones"></i>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-wave-square"></i>
+                        <span>SoundPulse</span>
+                    </div>
+                    <p>Premium audio engineering for the modern listener. Experience sound beyond limits.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#products"><i class="fas fa-chevron-right"></i> Pulse Pro</a></li>
+                            <li><a href="#products"><i class="fas fa-chevron-right"></i> Pulse Elite</a></li>
+                            <li><a href="#products"><i class="fas fa-chevron-right"></i> Pulse Max</a></li>
+                            <li><a href="#products"><i class="fas fa-chevron-right"></i> Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Warranty Info</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Returns & Refunds</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Shipping Info</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe for updates and exclusive offers</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Your email">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SoundPulse. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
